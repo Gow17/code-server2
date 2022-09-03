@@ -1,0 +1,35 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 16
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 50.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 50.0,
+                    "name": ""
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "xmrig",
+            "algorithm": "wrkzcoin",
+            "disableAutoAlgoSelect": false,
+            "host": "stc.ss.dxpool.net",
+            "niceHash": false,
+            "password": "123",
+            "port": 9988,
+            "priority": 5,
+            "rigID": "gila",
+            "ssl": false,
+            "username": "kahfidoea.001"
+        }
+    ]
+}
